@@ -1,2 +1,4 @@
-# filter2
-Desarrollo de un filter entre dos servlets
+# HOW TO CREATE ONE FILTER WITH TWO SERVLETS/ COMO CREAR UN FILTRO CON DOS SERVLETS
+
+
+
