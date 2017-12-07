@@ -45,7 +45,11 @@ public class Intermediario extends HttpServlet {
         {
              out.println("ESTAS INTERMEDIARIO");
             out.println("<br>");
-            out.println("  <a href=\"/filter2/ServletDestino\">Ir a Destino</a>");
+             out.println("<form action=\"/filter2/ServletDestino\">Name: <input type=\"text\" name=\"name\"> <br>"
+                     + "<input type=\"hidden\" name=\"comprobar\" value=\"algo\"><button>Comprobar</button></form>");
+          
+         
+          //  out.println("  <a href=\"/filter2/ServletDestino\">Ir a Destino</a>");
            
         }
 
